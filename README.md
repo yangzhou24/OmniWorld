@@ -38,10 +38,10 @@
 
 <img src="assets/teaser.png" width="1000px">
 
-## 🎉NEWS
+## 🎉 NEWS
 - [2025.9.16] 🔥 The first 1.2k splits release of OmniWorld-Game is now live on Hugging Face! More data is coming soon, stay tuned!
 
-## Abstract
+## ✨ Abstract
 The field of 4D world modeling—aiming to jointly capture spatial geometry and temporal dynamics—has witnessed remarkable progress in recent years, driven by advances in large-scale generative models and multimodal learning.
 However, the development of truly general 4D world models remains fundamentally constrained by the availability of high-quality data.
 Existing datasets and benchmarks often lack the dynamic complexity, multi-domain diversity, and spatial–temporal annotations required to support key tasks such as 4D geometric reconstruction, future prediction, and camera-control video generation.
@@ -53,7 +53,7 @@ Moreover, fine-tuning existing SOTA methods on _OmniWorld_ leads to significant 
 We envision _OmniWorld_ as a catalyst for accelerating the development of general-purpose 4D world models, ultimately advancing machines’ holistic understanding of the physical world.
 
 
-## Dataset Download
+## 💡 Dataset Download
 You can download the entire OmniWorld dataset using the following command:
 ```bash
 # 1. Install (if you haven't yet)
@@ -66,7 +66,47 @@ hf download InternRobotics/OmniWorld \
 ```
 For downloading specific files (instead of the full dataset), please refer to the [`dowanload_specific.py`](scripts/dowanload_specific.py).
 
-# License
+
+
+## 🚀 Visualize as Point Cloud
+
+This script allows you to convert a scene from the dataset into a 3D point cloud for inspection.
+
+### 1\. Prerequisites
+
+Please follow the instructions in the "Dataset Download" section to acquire the dataset.
+
+### 2\. Data Structure
+
+Ensure your data is structured correctly. Each scene directory should contain the following subdirectories and files:
+
+```
+<your-data-path>/b04f88d1f85a/
+├─ color/              # RGB frames (.png)
+├─ depth/              # 16-bit depth maps
+├─ flow/               # flow_u_16.png / flow_v_16.png / flow_vis.png
+├─ camera/             # split_*.json (intrinsics + extrinsics)
+├─ subject_masks/      # foreground masks (per split)
+├─ gdino_mask/         # dynamic-object masks (per frame)
+├─ text/               # structured captions (81-frame segments)
+├─ droidclib/          # coarse camera poses (if you need them)
+├─ fps.txt             # source video framerate
+└─ split_info.json     # how frames are grouped into splits
+```
+
+### 3\. Usage
+
+Run the `visualize_pcd.py` script, providing the path to the scene and the desired split index.
+
+**Example:**
+
+```bash
+python scripts/visualize_pcd.py <your-data-path>/b04f88d1f85a --split_idx 0
+```
+
+The output point cloud will be saved to `<your-data-path>/b04f88d1f85a/split0_points.ply`. You can view this file using a 3D viewer like [MeshLab](https://www.meshlab.net/).
+
+## 📄 License
 The OmniWorld dataset is released under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**. By accessing or using this dataset, you agree to be bound by the terms and conditions outlined in this license, as well as the specific provisions detailed below.
 
 - **Special Note on Third-Party Content**:
