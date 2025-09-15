@@ -10,18 +10,18 @@
     
 </div>
 <div align='center'>
-<a target='_blank'>Xinyue Li</a><sup>1</sup> 
-    <a href='https://scholar.google.com/citations?user=5SuBWh0AAAAJ&hl=en' target='_blank'>Yating Wang</a><sup>1</sup> 
+<a href='https://scholar.google.com/citations?user=VuTRUg8AAAAJ' target='_blank'>Xinyue Li</a><sup>1</sup> 
+    <a href='https://scholar.google.com/citations?user=5SuBWh0AAAAJ' target='_blank'>Yating Wang</a><sup>1</sup> 
     <a href='https://www.haoyizhu.site/' target='_blank'>Haoyi Zhu</a><sup>1</sup> 
     <a href='https://mingyulau.github.io/' target='_blank'>Mingyu Liu</a><sup>1,2</sup> 
-    <a target='_blank'>Dingning Liu</a><sup>1</sup> 
+    <a href='https://scholar.google.com/citations?user=FbSpETgAAAAJ' target='_blank'>Dingning Liu</a><sup>1</sup> 
     <a href='https://yangjiangeyjg.github.io/' target='_blank'>Jiange Yang</a><sup>1</sup>
     <a href='https://github.com/Kr1sJFU' target='_blank'>Zhoujie Fu</a><sup>1</sup>  
     
 </div>
 <div align='center'>
     <a href='https://sotamak1r.github.io/' target='_blank'>Junyi Chen</a><sup>1</sup> 
-    <a href='https://cshen.github.io' target='_blank'>Chunhua Shen</a><sup>1,2</sup> 
+    <a href='https://cshen.github.io' target='_blank'>Chunhua Shen</a><sup>2</sup> 
     <a href='https://oceanpang.github.io' target='_blank'>Jiangmiao Pang</a><sup>1</sup> 
     <a href='https://kpzhang93.github.io/' target='_blank'>Kaipeng Zhang</a><sup>1</sup>
     <a href='https://tonghe90.github.io/' target='_blank'>Tong He</a><sup>1†</sup>
@@ -31,7 +31,7 @@
 </div>
 <br>
 <div align="center">
-  <a href="https://yangzhou24.github.io/OmniWorld/"><img src="https://img.shields.io/badge/Project Page-F78100?style=plastic&logo=google-chrome&logoColor=white"></a>  
+  <a href="https://yangzhou24.github.io/OmniWorld/"><img src="https://img.shields.io/badge/Project Page-5745BB?logo=google-chrome&logoColor=white"></a>  
   <a href="https://arxiv.org/abs/xxx"><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv&color=red&logo=arxiv"></a>  
   <a href="https://github.com/yangzhou24/OmniWorld"><img src="https://img.shields.io/static/v1?label=Code&message=Github&color=blue&logo=github"></a>  
   <a href="https://huggingface.co/datasets/InternRobotics/OmniWorld"><img src="https://img.shields.io/static/v1?label=Dataset&message=HuggingFace&color=yellow&logo=huggingface"></a>  
@@ -42,16 +42,31 @@
 ## 🎉 NEWS
 - [2025.9.16] 🔥 The first 1.2k splits release of OmniWorld-Game is now live on Hugging Face! More data is coming soon, stay tuned!
 
-## ✨ Abstract
-The field of 4D world modeling—aiming to jointly capture spatial geometry and temporal dynamics—has witnessed remarkable progress in recent years, driven by advances in large-scale generative models and multimodal learning.
-However, the development of truly general 4D world models remains fundamentally constrained by the availability of high-quality data.
-Existing datasets and benchmarks often lack the dynamic complexity, multi-domain diversity, and spatial–temporal annotations required to support key tasks such as 4D geometric reconstruction, future prediction, and camera-control video generation.
-To address this gap, we introduce _OmniWorld_, a large-scale, multi-domain, multi-modal dataset specifically designed for 4D world modeling.
-_OmniWorld_ consists of a newly collected _OmniWorld-Game_ dataset and several curated public datasets spanning diverse domains.
-Compared with existing synthetic datasets, _OmniWorld-Game_ provides richer modality coverage, larger scale, and more realistic dynamic interactions.
-Based on this dataset, we establish a challenging benchmark that exposes the limitations of current state-of-the-art (SOTA) approaches in modeling complex 4D environments.
-Moreover, fine-tuning existing SOTA methods on _OmniWorld_ leads to significant performance gains across 4D reconstruction and video generation tasks, strongly validating _OmniWorld_ as a powerful resource for training and evaluation.
-We envision _OmniWorld_ as a catalyst for accelerating the development of general-purpose 4D world models, ultimately advancing machines’ holistic understanding of the physical world.
+## ✨ Overview
+
+OmniWorld is a large-scale, multi-domain, and multi-modal dataset specifically designed for 🌍**4D world modeling**, e.g. 4D geometric reconstruction, future prediction & camera-controlled video generation.
+
+### 🔑 Key Features
+
+- 📊 **Massive Scale**: 4000+ hours, 600K+ sequences, 300M+ frames
+- 🤖 **Diverse Domains**: sourced from simulartor, robot, human & the Internet
+- 🎨 **Rich Multi-Modality**: depth maps, camera poses, text captions, optical flow & foreground mask
+
+### 🎮 Introducing _OmniWorld-Game_
+
+_OmniWorld-Game_ is a newly collected high-quality synthetic subset of the main _OmniWorld_ dataset. It features:
+
+- 📊 **Scale**: 214 hours, 96K video clips, 18M+ frames
+- 🧩 **Resolution & Diversity**: 720P RGB image capatured from a wide range of dynamic game environments
+- 🎨 **Comprehensive Annotations**: cover all annotation types of the _OmniWorld_ dataset
+
+### 🏆 _OmniWorld-Game_ Benchmark
+
+_OmniWorld-Game_ Benchmark offers 4D world modeling evaluation for 3D Geometric Prediction &
+Camera Control Video Generation. Found: 
+
+- 🚫 Current state-of-the-art approaches **still show great limitations** in modeling complex 4D environments, based on both quantitative metrics and qualitative results.
+- 📈 **Fine-tuning** existing SOTA methods on _OmniWorld_ leads to **significant performance gains** across 4D reconstruction and video generation tasks, highlighting the value of our dataset.
 
 
 ## 💡 Dataset Download
