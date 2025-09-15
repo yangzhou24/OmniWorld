@@ -3,7 +3,7 @@
     <a href='https://github.com/yangzhou24' target='_blank'>Yang Zhou</a><sup>1</sup> 
     <a href='https://github.com/yyfz' target='_blank'>Yifan Wang</a><sup>1</sup> 
     <a href='https://zhoutimemachine.github.io' target='_blank'>Jianjun Zhou</a><sup>1,2</sup> 
-    <a href='hhttps://github.com/AmberHeart' target='_blank'>Wenzheng Chang</a><sup>1</sup> 
+    <a href='https://github.com/AmberHeart' target='_blank'>Wenzheng Chang</a><sup>1</sup> 
     <a href='https://github.com/ghy0324' target='_blank'>Haoyu Guo</a><sup>1</sup> 
     <a href='https://github.com/LiZizun' target='_blank'>Zizun Li</a><sup>1</sup> 
     <a href='https://kaijing.space/' target='_blank'>Kaijing Ma</a><sup>1</sup> 
@@ -15,11 +15,12 @@
     <a href='https://www.haoyizhu.site/' target='_blank'>Haoyi Zhu</a><sup>1</sup> 
     <a href='https://mingyulau.github.io/' target='_blank'>Mingyu Liu</a><sup>1,2</sup> 
     <a target='_blank'>Dingning Liu</a><sup>1</sup> 
-    <a href='https://yangjiangeyjg.github.io/' target='_blank'>Jiange Yang</a><sup>1</sup> 
-    <a href='https://sotamak1r.github.io/' target='_blank'>Junyi Chen</a><sup>1</sup> 
+    <a href='https://yangjiangeyjg.github.io/' target='_blank'>Jiange Yang</a><sup>1</sup>
+    <a href='https://github.com/Kr1sJFU' target='_blank'>Zhoujie Fu</a><sup>1</sup>  
+    
 </div>
 <div align='center'>
-    <a href='https://github.com/Kr1sJFU' target='_blank'>Zhoujie Fu</a><sup>1</sup> 
+    <a href='https://sotamak1r.github.io/' target='_blank'>Junyi Chen</a><sup>1</sup> 
     <a href='https://cshen.github.io' target='_blank'>Chunhua Shen</a><sup>1,2</sup> 
     <a href='https://oceanpang.github.io' target='_blank'>Jiangmiao Pang</a><sup>1</sup> 
     <a href='https://kpzhang93.github.io/' target='_blank'>Kaipeng Zhang</a><sup>1</sup>
