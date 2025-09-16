@@ -32,7 +32,7 @@
 <br>
 <div align="center">
   <a href="https://yangzhou24.github.io/OmniWorld/"><img src="https://img.shields.io/badge/Project Page-5745BB?logo=google-chrome&logoColor=white"></a>  
-  <a href="https://arxiv.org/abs/xxx"><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv&color=red&logo=arxiv"></a>  
+  <a href="https://arxiv.org/abs/2509.12201"><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv&color=red&logo=arxiv"></a>  
   <a href="https://github.com/yangzhou24/OmniWorld"><img src="https://img.shields.io/static/v1?label=Code&message=Github&color=blue&logo=github"></a>  
   <a href="https://huggingface.co/datasets/InternRobotics/OmniWorld"><img src="https://img.shields.io/static/v1?label=Dataset&message=HuggingFace&color=yellow&logo=huggingface"></a>  
 </div>
@@ -40,7 +40,7 @@
 <img src="assets/teaser.png" width="1000px">
 
 ## 🎉 NEWS
-- [2025.9.16] 🔥 The first 1.2k splits release of OmniWorld-Game is now live on Hugging Face! More data is coming soon, stay tuned!
+- [2025.9.16] 🔥 The first 1.2k splits release of **OmniWorld-Game** is now live on Hugging Face! **More data is coming soon, stay tuned!**
 
 ## ✨ Overview
 
@@ -141,3 +141,17 @@ Removing or altering any copyright, license, or attribution notices.
 The authors of the OmniWorld dataset provide this dataset "as is" and make no representations or warranties regarding the legality of the underlying data for any specific purpose. Users are solely responsible for ensuring that their use of the dataset complies with all applicable laws and the terms of service or license agreements of the original game publishers (sources of third-party content).
 
 For the full legal text of the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License, please visit: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.
+
+## Citation
+If you found this dataset useful, please cite our paper
+```bibtex
+@misc{zhou2025omniworld,
+      title={OmniWorld: A Multi-Domain and Multi-Modal Dataset for 4D World Modeling}, 
+      author={Yang Zhou and Yifan Wang and Jianjun Zhou and Wenzheng Chang and Haoyu Guo and Zizun Li and Kaijing Ma and Xinyue Li and Yating Wang and Haoyi Zhu and Mingyu Liu and Dingning Liu and Jiange Yang and Zhoujie Fu and Junyi Chen and Chunhua Shen and Jiangmiao Pang and Kaipeng Zhang and Tong He},
+      year={2025},
+      eprint={2509.12201},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2509.12201}, 
+}
+```
