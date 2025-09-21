@@ -40,6 +40,7 @@
 <img src="assets/teaser.png" width="1000px">
 
 ## 🎉 NEWS
+- [2025.9.21] 🔥 The **OmniWorld-Game** dataset now includes **5k splits** in total on Hugging Face!
 - [2025.9.16] 🔥 The first 1.2k splits release of **OmniWorld-Game** is now live on Hugging Face! **More data is coming soon, stay tuned!**
 
 ## ✨ Overview
