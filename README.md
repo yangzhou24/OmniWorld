@@ -40,6 +40,7 @@
 <img src="assets/teaser.png" width="1000px">
 
 ## 🎉 NEWS
+- [2025.9.28] The **OmniWorld-CityWalk** dataset is now live on Hugging Face!
 - [2025.9.21] 🔥 The **OmniWorld-Game** dataset now includes **5k splits** in total on Hugging Face!
 - [2025.9.16] 🔥 The first 1.2k splits release of **OmniWorld-Game** is now live on Hugging Face! **More data is coming soon, stay tuned!**
 
@@ -83,15 +84,15 @@ hf download InternRobotics/OmniWorld \
 ```
 For downloading specific files (instead of the full dataset), please refer to the [`dowanload_specific.py`](scripts/dowanload_specific.py).
 
-
+> For detailed usage, please refer to [OmniWorld Hugging Face](https://huggingface.co/datasets/InternRobotics/OmniWorld)
 
 ## 🚀 Visualize as Point Cloud
 
-This script allows you to convert a scene from the dataset into a 3D point cloud for inspection.
+This script allows you to convert a scene from OmniWorld-Game dataset into a 3D point cloud for inspection.
 
 ### 1\. Prerequisites
 
-Please follow the instructions in the "Dataset Download" section to acquire the dataset.
+Please follow the instructions in the "Dataset Download" section to acquire the OmniWorld-Game dataset.
 
 ### 2\. Data Structure
 
