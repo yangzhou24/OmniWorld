@@ -44,6 +44,29 @@
 - [2025.9.21] 🔥 The **OmniWorld-Game** dataset now includes **5k splits** in total on Hugging Face!
 - [2025.9.16] 🔥 The first 1.2k splits release of **OmniWorld-Game** is now live on Hugging Face! **More data is coming soon, stay tuned!**
 
+## 📝 Open-Source Plan
+
+OmniWorld is a multi-domain and multi-modal dataset comprising several distinct sub-datasets. 🙂: The modality is newly (re-)annotated by us, ✅: Ground-truth data that already exists in the original dataset, ❌: Missing modalities.
+`✅ Released`: The sub-dataset is publicly available. `🔜 Planned`: The sub-dataset is on our roadmap for a future release. `Full`: The entire sub-dataset is released and available for download. `Partial`: A specified subset of the data is released (e.g., 5k / 96k sequences). `Closed`: The data is not yet publicly available.
+
+| Dataset | Domain | # Seq. | FPS | Resolution | # Frames | Depth | Camera | Text | Opt. flow | Fg. masks | Status | Availability |
+| :-- | :-- | --: | --: | :--: | --: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| OmniWorld-Game | Simulator | 96K | 24 | 1280 × 720 | 18,515K | 🙂 | 🙂 | 🙂 | 🙂 | 🙂 | ✅ Released | Partial (5k / 96k) |
+| AgiBot | Robot | 20K | 30 | 640 × 480 | 39,247K | 🙂 | ✅ | ✅ | ❌ | 🙂 | 🔜 Planned | Closed  |
+| DROID | Robot | 35K | 60 | 1280 × 720 | 26,643K | 🙂 | ✅ | 🙂 | 🙂 | 🙂 | 🔜 Planned | Closed  |
+| RH20T | Robot | 109K | 10 | 640 × 360 | 53,453K | ❌ | ✅ | 🙂 | 🙂 | 🙂 | 🔜 Planned | Closed  |
+| RH20T-Human | Human | 73K | 10 | 640 × 360 | 8,875K | ❌ | ✅ | 🙂 | ❌ | ❌ | 🔜 Planned | Closed  |
+| HOI4D | Human | 2K | 15 | 1920 × 1080 | 891K | 🙂 | 🙂 | 🙂 | 🙂 | ✅ | 🔜 Planned | Closed  |
+| Epic-Kitchens | Human | 15K | 30 | 1280 × 720 | 3,635K | ❌ | 🙂 | 🙂 | ❌ | ❌ | 🔜 Planned | Closed  |
+| Ego-Exo4D | Human | 4K | 30 | 1024 × 1024 | 9,190K | ❌ | ✅ | 🙂 | 🙂 | ❌ | 🔜 Planned | Closed  |
+| HoloAssist | Human | 1K | 30 | 896 × 504 | 13,037K | ❌ | 🙂 | 🙂 | 🙂 | ❌ | 🔜 Planned | Closed  |
+| Assembly101 | Human | 4K | 60 | 1920 × 1080 | 110,831K | ❌ | ✅ | 🙂 | 🙂 | 🙂 | 🔜 Planned | Closed  |
+| EgoDex | Human | 242K | 30 | 1920 × 1080 | 76,631K | ❌ | ✅ | 🙂 | ❌ | ❌ | 🔜 Planned | Closed  |
+| CityWalk | Internet | 7 K | 30 | 1280 × 720 | 13,096K | ❌ | 🙂 | ✅ | ❌ | ❌ | ✅ Released | Full |
+---
+
+We will refresh this table whenever a milestone is reached. Your feedback and pull-requests are welcome!
+
 ## ✨ Overview
 
 OmniWorld is a large-scale, multi-domain, and multi-modal dataset specifically designed for 🌍**4D world modeling**, e.g. 4D geometric reconstruction, future prediction & camera-controlled video generation.
