@@ -145,6 +145,15 @@ python scripts/visualize_pcd.py <your-data-path>/b04f88d1f85a --split_idx 0
 
 The output point cloud will be saved to `<your-data-path>/b04f88d1f85a/split0_points.ply`. You can view this file using a 3D viewer like [MeshLab](https://www.meshlab.net/).
 
+## 🏁 Awesome Works using OmniWorld Dataset
+[WinT3R: Window-Based Streaming Reconstruction With Camera Token Pool](https://lizizun.github.io/WinT3R.github.io/)
+
+[<em>&pi;³</em>: Permutation-Equivariant Visual Geometry Learning](https://yyfz.github.io/pi3/)
+
+[DeepVerse: 4D Autoregressive Video Generation as a World Model](https://sotamak1r.github.io/deepverse/)
+
+[Aether: Geometric-Aware Unified World Modeling](https://aether-world.github.io/)
+
 ## 📄 License
 The OmniWorld dataset is released under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**. By accessing or using this dataset, you agree to be bound by the terms and conditions outlined in this license, as well as the specific provisions detailed below.
 
