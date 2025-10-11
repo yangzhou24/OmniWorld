@@ -146,13 +146,13 @@ python scripts/visualize_pcd.py <your-data-path>/b04f88d1f85a --split_idx 0
 The output point cloud will be saved to `<your-data-path>/b04f88d1f85a/split0_points.ply`. You can view this file using a 3D viewer like [MeshLab](https://www.meshlab.net/).
 
 ## 🏁 Awesome Works using OmniWorld Dataset
-[WinT3R: Window-Based Streaming Reconstruction With Camera Token Pool](https://lizizun.github.io/WinT3R.github.io/)
+[WinT3R](https://github.com/LiZizun/WinT3R): Window-Based Streaming Reconstruction With Camera Token Pool ![GitHub Repo stars](https://img.shields.io/github/stars/LiZizun/WinT3R)
 
-[<em>&pi;³</em>: Permutation-Equivariant Visual Geometry Learning](https://yyfz.github.io/pi3/)
+[<em>&pi;³</em>](https://github.com/yyfz/Pi3): Permutation-Equivariant Visual Geometry Learning ![GitHub Repo stars](https://img.shields.io/github/stars/yyfz/Pi3)
 
-[DeepVerse: 4D Autoregressive Video Generation as a World Model](https://sotamak1r.github.io/deepverse/)
+[DeepVerse](https://github.com/SOTAMak1r/DeepVerse): 4D Autoregressive Video Generation as a World Model ![GitHub Repo stars](https://img.shields.io/github/stars/SOTAMak1r/DeepVerse)
 
-[Aether: Geometric-Aware Unified World Modeling](https://aether-world.github.io/)
+[Aether](https://github.com/InternRobotics/Aether): Geometric-Aware Unified World Modeling ![GitHub Repo stars](https://img.shields.io/github/stars/InternRobotics/Aether)
 
 ## 📄 License
 The OmniWorld dataset is released under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**. By accessing or using this dataset, you agree to be bound by the terms and conditions outlined in this license, as well as the specific provisions detailed below.
@@ -175,7 +175,7 @@ The authors of the OmniWorld dataset provide this dataset "as is" and make no re
 For the full legal text of the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License, please visit: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.
 
 ## Citation
-If you found this dataset useful, please cite our paper
+If you find this dataset useful, please cite our paper
 ```bibtex
 @misc{zhou2025omniworld,
       title={OmniWorld: A Multi-Domain and Multi-Modal Dataset for 4D World Modeling}, 
