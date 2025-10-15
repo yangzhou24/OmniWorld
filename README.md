@@ -40,6 +40,7 @@
 <img src="assets/teaser.png" width="1000px">
 
 ## 🎉 NEWS
+- [2025.10.15] 🔥 The **OmniWorld-Game Benchmark** is now live on Hugging Face!
 - [2025.10.8] The **OmniWorld-HOI4D** and **OmniWorld-DROID** dataset is now live on Hugging Face!
 - [2025.9.28] The **OmniWorld-CityWalk** dataset is now live on Hugging Face!
 - [2025.9.21] 🔥 The **OmniWorld-Game** dataset now includes **5k splits** in total on Hugging Face!
@@ -61,6 +62,7 @@
 | Assembly101 | 🔜 Planned | -  | Human | 4K | 60 | 1920 × 1080 | 110,831K | ❌ | ✅ | 🙂 | 🙂 | 🙂 |
 | EgoDex | 🔜 Planned | -  | Human | 242K | 30 | 1920 × 1080 | 76,631K | ❌ | ✅ | 🙂 | ❌ | ❌ |
 | CityWalk | ✅ Released | Full | Internet | 7 K | 30 | 1280 × 720 | 13,096K | ❌ | 🙂 | ✅ | ❌ | ❌ |
+| Game-Benchmark | ✅ Released | Full | Simulator | - | 24 | 1280 × 720 | - | 🙂 | 🙂 | 🙂 | 🙂 | 🙂 |
 ---
 
 We will refresh this table whenever a milestone is reached. Your feedback and pull-requests are welcome!
