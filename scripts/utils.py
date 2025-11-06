@@ -43,7 +43,7 @@ def load_camera_poses(scene_dir: Path, split_idx: int):
     Returns
     -------
     intrinsics : (S, 3, 3) array, pixel-space K matrices
-    extrinsics : (S, 4, 4) array, OpenCV camera-to-world matrices
+    extrinsics : (S, 4, 4) array, OpenCV world-to-camera matrices
     """
     # ----- read metadata -----------------------------------------------------
     split_info = load_split_info(scene_dir)
