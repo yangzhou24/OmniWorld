@@ -1,45 +1,17 @@
 <h1 align='center'>OmniWorld: A Multi-Domain and Multi-Modal Dataset for 4D World Modeling</h1>
-<div align='center'>
-    <a href='https://github.com/yangzhou24' target='_blank'>Yang Zhou</a><sup>1</sup> 
-    <a href='https://github.com/yyfz' target='_blank'>Yifan Wang</a><sup>1</sup> 
-    <a href='https://zhoutimemachine.github.io' target='_blank'>Jianjun Zhou</a><sup>1,2</sup> 
-    <a href='https://github.com/AmberHeart' target='_blank'>Wenzheng Chang</a><sup>1</sup> 
-    <a href='https://github.com/ghy0324' target='_blank'>Haoyu Guo</a><sup>1</sup> 
-    <a href='https://github.com/LiZizun' target='_blank'>Zizun Li</a><sup>1</sup> 
-    <a href='https://kaijing.space/' target='_blank'>Kaijing Ma</a><sup>1</sup> 
-    
-</div>
-<div align='center'>
-<a href='https://scholar.google.com/citations?user=VuTRUg8AAAAJ' target='_blank'>Xinyue Li</a><sup>1</sup> 
-    <a href='https://scholar.google.com/citations?user=5SuBWh0AAAAJ' target='_blank'>Yating Wang</a><sup>1</sup> 
-    <a href='https://www.haoyizhu.site/' target='_blank'>Haoyi Zhu</a><sup>1</sup> 
-    <a href='https://mingyulau.github.io/' target='_blank'>Mingyu Liu</a><sup>1,2</sup> 
-    <a href='https://scholar.google.com/citations?user=FbSpETgAAAAJ' target='_blank'>Dingning Liu</a><sup>1</sup> 
-    <a href='https://yangjiangeyjg.github.io/' target='_blank'>Jiange Yang</a><sup>1</sup>
-    <a href='https://github.com/Kr1sJFU' target='_blank'>Zhoujie Fu</a><sup>1</sup>  
-    
-</div>
-<div align='center'>
-    <a href='https://sotamak1r.github.io/' target='_blank'>Junyi Chen</a><sup>1</sup> 
-    <a href='https://cshen.github.io' target='_blank'>Chunhua Shen</a><sup>2</sup> 
-    <a href='https://oceanpang.github.io' target='_blank'>Jiangmiao Pang</a><sup>1</sup> 
-    <a href='https://kpzhang93.github.io/' target='_blank'>Kaipeng Zhang</a><sup>1</sup>
-    <a href='https://tonghe90.github.io/' target='_blank'>Tong He</a><sup>1†</sup>
-</div>
-<div align='center'>
-    <sup>1</sup>Shanghai AI Lab  <sup>2</sup>ZJU 
-</div>
-<br>
+
 <div align="center">
   <a href="https://yangzhou24.github.io/OmniWorld/"><img src="https://img.shields.io/badge/Project Page-5745BB?logo=google-chrome&logoColor=white"></a>  
   <a href="https://arxiv.org/abs/2509.12201"><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv&color=red&logo=arxiv"></a>  
   <a href="https://github.com/yangzhou24/OmniWorld"><img src="https://img.shields.io/static/v1?label=Code&message=Github&color=blue&logo=github"></a>  
   <a href="https://huggingface.co/datasets/InternRobotics/OmniWorld"><img src="https://img.shields.io/static/v1?label=Dataset&message=HuggingFace&color=yellow&logo=huggingface"></a>  
+  <a href="https://modelscope.cn/datasets/InternRobotics/OmniWorld"><img src="https://img.shields.io/static/v1?label=Dataset&message=ModelScope&color=purple&logo=ModelScope"></a>
 </div>
-
+<br>
 <img src="assets/teaser.png" width="1000px">
 
 ## 🎉 NEWS
+- [2025.11.11] The **OmniWorld** is now live on 🤖 ModelScope!
 - [2025.10.15] 🔥 The **OmniWorld-Game Benchmark** is now live on Hugging Face!
 - [2025.10.8] The **OmniWorld-HOI4D** and **OmniWorld-DROID** dataset is now live on Hugging Face!
 - [2025.9.28] The **OmniWorld-CityWalk** dataset is now live on Hugging Face!
@@ -61,7 +33,7 @@
 | HoloAssist | 🔜 Planned | -  | Human | 1K | 30 | 896 × 504 | 13,037K | ❌ | 🙂 | 🙂 | 🙂 | ❌ |
 | Assembly101 | 🔜 Planned | -  | Human | 4K | 60 | 1920 × 1080 | 110,831K | ❌ | ✅ | 🙂 | 🙂 | 🙂 |
 | EgoDex | 🔜 Planned | -  | Human | 242K | 30 | 1920 × 1080 | 76,631K | ❌ | ✅ | 🙂 | ❌ | ❌ |
-| CityWalk | ✅ Released | Full | Internet | 7 K | 30 | 1280 × 720 | 13,096K | ❌ | 🙂 | ✅ | ❌ | ❌ |
+| CityWalk | ✅ Released | Full | Internet | 7K | 30 | 1280 × 720 | 13,096K | ❌ | 🙂 | ✅ | ❌ | ❌ |
 | Game-Benchmark | ✅ Released | Full | Simulator | - | 24 | 1280 × 720 | - | 🙂 | 🙂 | 🙂 | 🙂 | 🙂 |
 ---
 
