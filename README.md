@@ -120,13 +120,18 @@ python scripts/visualize_pcd.py <your-data-path>/b04f88d1f85a --split_idx 0
 The output point cloud will be saved to `<your-data-path>/b04f88d1f85a/split0_points.ply`. You can view this file using a 3D viewer like [MeshLab](https://www.meshlab.net/).
 
 ## 🏁 Awesome Works using OmniWorld Dataset
-[WinT3R](https://github.com/LiZizun/WinT3R): Window-Based Streaming Reconstruction With Camera Token Pool ![GitHub Repo stars](https://img.shields.io/github/stars/LiZizun/WinT3R)
+
+[Depth Anything 3](https://github.com/ByteDance-Seed/Depth-Anything-3): Recovering the Visual Space from Any Views ![GitHub Repo stars](https://img.shields.io/github/stars/ByteDance-Seed/Depth-Anything-3)
 
 [<em>&pi;³</em>](https://github.com/yyfz/Pi3): Permutation-Equivariant Visual Geometry Learning ![GitHub Repo stars](https://img.shields.io/github/stars/yyfz/Pi3)
 
+[Aether](https://github.com/InternRobotics/Aether): Geometric-Aware Unified World Modeling ![GitHub Repo stars](https://img.shields.io/github/stars/InternRobotics/Aether)
+
+[WinT3R](https://github.com/LiZizun/WinT3R): Window-Based Streaming Reconstruction With Camera Token Pool ![GitHub Repo stars](https://img.shields.io/github/stars/LiZizun/WinT3R)
+
 [DeepVerse](https://github.com/SOTAMak1r/DeepVerse): 4D Autoregressive Video Generation as a World Model ![GitHub Repo stars](https://img.shields.io/github/stars/SOTAMak1r/DeepVerse)
 
-[Aether](https://github.com/InternRobotics/Aether): Geometric-Aware Unified World Modeling ![GitHub Repo stars](https://img.shields.io/github/stars/InternRobotics/Aether)
+[OmniVGGT](https://github.com/Livioni/OmniVGGT-official): Omni-Modality Driven Visual Geometry Grounded Transformer ![GitHub Repo stars](https://img.shields.io/github/stars/Livioni/OmniVGGT-official)
 
 ## 📄 License
 The OmniWorld dataset is released under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**. By accessing or using this dataset, you agree to be bound by the terms and conditions outlined in this license, as well as the specific provisions detailed below.
