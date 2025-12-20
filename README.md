@@ -156,13 +156,10 @@ For the full legal text of the Creative Commons Attribution-NonCommercial-ShareA
 ## Citation
 If you find this dataset useful, please cite our paper
 ```bibtex
-@misc{zhou2025omniworld,
+@article{zhou2025omniworld,
       title={OmniWorld: A Multi-Domain and Multi-Modal Dataset for 4D World Modeling}, 
       author={Yang Zhou and Yifan Wang and Jianjun Zhou and Wenzheng Chang and Haoyu Guo and Zizun Li and Kaijing Ma and Xinyue Li and Yating Wang and Haoyi Zhu and Mingyu Liu and Dingning Liu and Jiange Yang and Zhoujie Fu and Junyi Chen and Chunhua Shen and Jiangmiao Pang and Kaipeng Zhang and Tong He},
-      year={2025},
-      eprint={2509.12201},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2509.12201}, 
+      journal={arXiv preprint arXiv:2509.12201},
+      year={2025}
 }
 ```
