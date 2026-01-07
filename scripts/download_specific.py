@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Download a subset of the OmniWorld dataset based on UIDs listed in a CSV
+Download a subset of the OmniWorld-Game dataset based on UIDs listed in a CSV
 (or passed explicitly via CLI).
 
 Examples
 --------
 Download rows 0 and 1 (0-based, header excluded):
 
-    python download_omniworld_subset.py \
+    python download_specific.py \
         --csv omniworld_game_metadata.csv \
         --repo InternRobotics/OmniWorld \
         --local_dir ./OmniWorld_subset \
@@ -16,7 +16,7 @@ Download rows 0 and 1 (0-based, header excluded):
 
 Or specify the UIDs directly, bypassing the CSV:
 
-    python download_omniworld_subset.py \
+    python download_specific.py \
         --uids 0b3caf48b79d 0c3cefcf3a15
 """
 

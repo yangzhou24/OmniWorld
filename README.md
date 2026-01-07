@@ -11,6 +11,7 @@
 <img src="assets/teaser.png" width="1000px">
 
 ## 🎉 NEWS
+- [2026.1.7] Update and release OmniWorld-Game, RH20T, RH20T-Human, Ego-Exo4D, EgoDex.
 - [2025.11.11] The **OmniWorld** is now live on 🤖 ModelScope!
 - [2025.10.15] 🔥 The **OmniWorld-Game Benchmark** is now live on Hugging Face!
 - [2025.10.8] The **OmniWorld-HOI4D** and **OmniWorld-DROID** dataset is now live on Hugging Face!
@@ -22,19 +23,20 @@
 ## 📝 Open-Source Plan
 | Dataset | Status | Availability | Domain | # Seq. | FPS | Resolution | # Frames | Depth | Camera | Text | Opt. flow | Fg. masks |
 | :-- | :-- | --: | --: | :--: | --: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
-| OmniWorld-Game | ✅ Released | Partial (5k / 96k) | Simulator | 96K | 24 | 1280 × 720 | 18,515K | 🙂 | 🙂 | 🙂 | 🙂 | 🙂 |
+| OmniWorld-Game | ✅ Released | 11k / 96k | Simulator | 96K | 24 | 1280 × 720 | 18,515K | 🙂 | 🙂 | 🙂 | 🙂 | 🙂 |
 | AgiBot | 🔜 Planned | -  | Robot | 20K | 30 | 640 × 480 | 39,247K | 🙂 | ✅ | ✅ | ❌ | 🙂 |
 | DROID | ✅ Released | Full  | Robot | 35K | 60 | 1280 × 720 | 26,643K | 🙂 | ✅ | 🙂 | 🙂 | 🙂 |
-| RH20T | 🔜 Planned | -  | Robot | 109K | 10 | 640 × 360 | 53,453K | ❌ | ✅ | 🙂 | 🙂 | 🙂 |
-| RH20T-Human | 🔜 Planned | -  | Human | 73K | 10 | 640 × 360 | 8,875K | ❌ | ✅ | 🙂 | ❌ | ❌ |
+| RH20T | ✅ Released | Full  | Robot | 109K | 10 | 640 × 360 | 53,453K | ❌ | ✅ | 🙂 | 🙂 | 🙂 |
+| RH20T-Human | ✅ Released | Full  | Human | 73K | 10 | 640 × 360 | 8,875K | ❌ | ✅ | 🙂 | ❌ | ❌ |
 | HOI4D | ✅ Released | Full  | Human | 2K | 15 | 1920 × 1080 | 891K | 🙂 | 🙂 | 🙂 | 🙂 | ✅ |
 | Epic-Kitchens | 🔜 Planned | -  | Human | 15K | 30 | 1280 × 720 | 3,635K | ❌ | 🙂 | 🙂 | ❌ | ❌ |
-| Ego-Exo4D | 🔜 Planned | -  | Human | 4K | 30 | 1024 × 1024 | 9,190K | ❌ | ✅ | 🙂 | 🙂 | ❌ |
+| Ego-Exo4D | ✅ Released | Full  | Human | 4K | 30 | 1024 × 1024 | 9,190K | ❌ | ✅ | 🙂 | 🙂 | ❌ |
 | HoloAssist | 🔜 Planned | -  | Human | 1K | 30 | 896 × 504 | 13,037K | ❌ | 🙂 | 🙂 | 🙂 | ❌ |
 | Assembly101 | 🔜 Planned | -  | Human | 4K | 60 | 1920 × 1080 | 110,831K | ❌ | ✅ | 🙂 | 🙂 | 🙂 |
-| EgoDex | 🔜 Planned | -  | Human | 242K | 30 | 1920 × 1080 | 76,631K | ❌ | ✅ | 🙂 | ❌ | ❌ |
+| EgoDex | ✅ Released | Full  | Human | 242K | 30 | 1920 × 1080 | 76,631K | ❌ | ✅ | 🙂 | ❌ | ❌ |
 | CityWalk | ✅ Released | Full | Internet | 7K | 30 | 1280 × 720 | 13,096K | ❌ | 🙂 | ✅ | ❌ | ❌ |
 | Game-Benchmark | ✅ Released | Full | Simulator | - | 24 | 1280 × 720 | - | 🙂 | 🙂 | 🙂 | 🙂 | 🙂 |
+
 ---
 
 We will refresh this table whenever a milestone is reached. Your feedback and pull-requests are welcome!
@@ -46,7 +48,7 @@ OmniWorld is a large-scale, multi-domain, and multi-modal dataset specifically d
 ### 🔑 Key Features
 
 - 📊 **Massive Scale**: 4000+ hours, 600K+ sequences, 300M+ frames
-- 🤖 **Diverse Domains**: sourced from simulartor, robot, human & the Internet
+- 🤖 **Diverse Domains**: sourced from simulator, robot, human & the Internet
 - 🎨 **Rich Multi-Modality**: depth maps, camera poses, text captions, optical flow & foreground mask
 
 ### 🎮 Introducing _OmniWorld-Game_
@@ -60,7 +62,7 @@ _OmniWorld-Game_ is a newly collected high-quality synthetic subset of the main 
 ### 🏆 _OmniWorld-Game_ Benchmark
 
 _OmniWorld-Game_ Benchmark offers 4D world modeling evaluation for 3D Geometric Prediction &
-Camera Control Video Generation. Found: 
+Camera Control Video Generation. Key Findings: 
 
 - 🚫 Current state-of-the-art approaches **still show great limitations** in modeling complex 4D environments, based on both quantitative metrics and qualitative results.
 - 📈 **Fine-tuning** existing SOTA methods on _OmniWorld_ leads to **significant performance gains** across 4D reconstruction and video generation tasks, highlighting the value of our dataset.
@@ -77,9 +79,9 @@ hf download InternRobotics/OmniWorld \
            --repo-type dataset \
            --local-dir /path/to/DATA_PATH
 ```
-For downloading specific files (instead of the full dataset), please refer to the [`dowanload_specific.py`](scripts/dowanload_specific.py).
+For downloading specific files (eg., instead of the full OmniWorld-Game dataset), please refer to the [`download_specific.py`](scripts/download_specific.py).
 
-> For detailed usage, please refer to [OmniWorld Hugging Face](https://huggingface.co/datasets/InternRobotics/OmniWorld)
+> For detailed usage, please refer to 🤗 [**OmniWorld Hugging Face**](https://huggingface.co/datasets/InternRobotics/OmniWorld)
 
 ## 🚀 Visualize as Point Cloud
 
