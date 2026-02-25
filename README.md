@@ -56,7 +56,7 @@ OmniWorld is a large-scale, multi-domain, and multi-modal dataset specifically d
 _OmniWorld-Game_ is a newly collected high-quality synthetic subset of the main _OmniWorld_ dataset. It features:
 
 - 📊 **Scale**: 214 hours, 96K video clips, 18M+ frames
-- 🧩 **Resolution & Diversity**: 720P RGB image capatured from a wide range of dynamic game environments
+- 🧩 **Resolution & Diversity**: 720P RGB image captured from a wide range of dynamic game environments
 - 🎨 **Comprehensive Annotations**: cover all annotation types of the _OmniWorld_ dataset
 
 ### 🏆 _OmniWorld-Game_ Benchmark
@@ -79,7 +79,7 @@ hf download InternRobotics/OmniWorld \
            --repo-type dataset \
            --local-dir /path/to/DATA_PATH
 ```
-For downloading specific files (eg., instead of the full OmniWorld-Game dataset), please refer to the [`download_specific.py`](scripts/download_specific.py).
+For downloading specific files (e.g., instead of the full OmniWorld-Game dataset), please refer to the [`download_specific.py`](scripts/download_specific.py).
 
 > For detailed usage, please refer to 🤗 [**OmniWorld Hugging Face**](https://huggingface.co/datasets/InternRobotics/OmniWorld)
 
@@ -149,14 +149,14 @@ Under this license, you are expressly **forbidden** from:
 - Using the dataset, in whole or in part, for any commercial purpose, including but not limited to its incorporation into commercial products, services, or monetized applications.
 
 - Redistributing the original third-party game assets contained within the dataset outside the scope of legitimate research sharing.
-Removing or altering any copyright, license, or attribution notices.
+- Removing or altering any copyright, license, or attribution notices.
 
 The authors of the OmniWorld dataset provide this dataset "as is" and make no representations or warranties regarding the legality of the underlying data for any specific purpose. Users are solely responsible for ensuring that their use of the dataset complies with all applicable laws and the terms of service or license agreements of the original game publishers (sources of third-party content).
 
 For the full legal text of the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License, please visit: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.
 
 ## Citation
-If you find this dataset useful, please cite our paper
+If you find this dataset useful, please cite our paper.
 ```bibtex
 @article{zhou2025omniworld,
       title={OmniWorld: A Multi-Domain and Multi-Modal Dataset for 4D World Modeling}, 
