@@ -118,7 +118,7 @@ Run the `visualize_pcd.py` script, providing the path to the scene and the desir
 **Example:**
 
 ```bash
-python scripts/visualize_pcd.py <your-data-path>/b04f88d1f85a --split_idx 0
+python scripts/visualize_pcd.py <your-data-path>/b04f88d1f85a --split_idx 0 --metadata_csv metadata/omniworld_game_metadata.csv
 ```
 
 The output point cloud will be saved to `<your-data-path>/b04f88d1f85a/split0_points.ply`. You can view this file using a 3D viewer like [MeshLab](https://www.meshlab.net/).
