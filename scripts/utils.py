@@ -1,3 +1,4 @@
+import csv
 import numpy as np
 from plyfile import PlyData, PlyElement
 import imageio
@@ -38,12 +39,27 @@ def load_split_info(scene_dir: Path):
     with open(scene_dir / "split_info.json", "r", encoding="utf-8") as f:
         return json.load(f)
 
-def load_camera_poses(scene_dir: Path, split_idx: int):
+def load_metric_scale(scene_dir: Path, metadata_csv: Path):
+    """Load per-scene metric scale from metadata csv by UID."""
+    uid = scene_dir.name
+    with open(metadata_csv, "r", encoding="utf-8", newline="") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            if row["UID"] == uid:
+                return float(row["Metric Scale"])
+    raise KeyError(f"UID {uid!r} not found in {metadata_csv}")
+
+def load_camera_poses(scene_dir: Path, split_idx: int, metric_scale: float = None):
     """
     Returns
     -------
     intrinsics : (S, 3, 3) array, pixel-space K matrices
     extrinsics : (S, 4, 4) array, OpenCV world-to-camera matrices
+
+    Notes
+    -----
+    If `metric_scale` is provided, poses are rescaled to metric scale
+    by scaling camera-to-world translation only.
     """
     # ----- read metadata -----------------------------------------------------
     split_info = load_split_info(scene_dir)
@@ -74,15 +90,24 @@ def load_camera_poses(scene_dir: Path, split_idx: int):
     extrinsics[:, :3, :3] = rotations
     extrinsics[:, :3, 3] = translations
 
+    if metric_scale is not None:
+        c2w = np.linalg.inv(extrinsics)
+        c2w[:, :3, 3] *= float(metric_scale)
+        extrinsics = np.linalg.inv(c2w)
+
     return intrinsics.astype(np.float32), extrinsics.astype(np.float32), idxs
 
 
-def load_depth(depthpath):
+def load_depth(depthpath, metric_scale: float = None):
     """
     Returns
     -------
     depthmap : (H, W) float32
     valid   : (H, W) bool      True for reliable pixels
+
+    Notes
+    -----
+    If `metric_scale` is provided, valid depth values are converted to metric scale.
     """
 
     depthmap = imageio.v2.imread(depthpath).astype(np.float32) / 65535.0
@@ -94,6 +119,9 @@ def load_depth(depthpath):
 
     valid = ~(near_mask | far_mask)
     depthmap[~valid] = -1
+
+    if metric_scale is not None:
+        depthmap[valid] *= float(metric_scale)
 
     return depthmap, valid
 

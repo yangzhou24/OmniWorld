@@ -11,6 +11,8 @@
 <img src="assets/teaser.png" width="1000px">
 
 ## 🎉 NEWS
+- [2026.3.21] 🔥 OmniWorld-Game with **Metric Scale** is now released! Check out our latest model [Pi3X](https://github.com/yyfz/Pi3#introducing-pi3x-engineering-update) (an enhanced version of [Pi3](https://github.com/yyfz/Pi3)), which supports metric scale reconstruction!
+- [2026.1.26] 🎉 OmniWorld was accepted by ICLR 2026!
 - [2026.1.7] Update and release OmniWorld-Game, RH20T, RH20T-Human, Ego-Exo4D, EgoDex.
 - [2025.11.11] The **OmniWorld** is now live on 🤖 ModelScope!
 - [2025.10.15] 🔥 The **OmniWorld-Game Benchmark** is now live on Hugging Face!
