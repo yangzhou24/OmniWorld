@@ -115,13 +115,20 @@ Ensure your data is structured correctly. Each scene directory should contain th
 
 Run the `visualize_pcd.py` script, providing the path to the scene and the desired split index.
 
-**Example:**
+- **Metric scale point cloud** (real-world units): pass `--metadata_csv metadata/omniworld_game_metadata.csv` so depth and poses are scaled with the per-scene metric factor from the metadata. The output is `split{N}_points_metric.ply`.
+- **Relative scale point cloud** (no metric): omit `--metadata_csv`. The output is `split{N}_points.ply`.
+
+**Examples:**
 
 ```bash
+# Metric scale (requires metadata CSV)
 python scripts/visualize_pcd.py <your-data-path>/b04f88d1f85a --split_idx 0 --metadata_csv metadata/omniworld_game_metadata.csv
+
+# Relative scale (no metadata)
+python scripts/visualize_pcd.py <your-data-path>/b04f88d1f85a --split_idx 0
 ```
 
-The output point cloud will be saved to `<your-data-path>/b04f88d1f85a/split0_points.ply`. You can view this file using a 3D viewer like [MeshLab](https://www.meshlab.net/).
+The point cloud is written under the scene directory (e.g. `split0_points_metric.ply` or `split0_points.ply`). You can view it with a 3D viewer like [MeshLab](https://www.meshlab.net/).
 
 ## 🏁 Awesome Works using OmniWorld Dataset
 
