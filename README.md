@@ -13,8 +13,8 @@
 ## 🎉 NEWS
 - [2026.3.21] 🔥 OmniWorld-Game with **Metric Scale** is now released! Check out our latest model [Pi3X](https://github.com/yyfz/Pi3#introducing-pi3x-engineering-update) (an enhanced version of [Pi3](https://github.com/yyfz/Pi3)), which supports metric scale reconstruction!
 - [2026.1.26] 🎉 OmniWorld was accepted by ICLR 2026!
-- [2026.1.7] Update and release OmniWorld-Game, RH20T, RH20T-Human, Ego-Exo4D, EgoDex.
-- [2025.11.11] The **OmniWorld** is now live on 🤖 ModelScope!
+- [2026.1.7] Update and release OmniWorld-Game, RH20T, RH20T-Human, Ego-Exo4D, EgoDex, Epic-Kitchens.
+- [2025.11.11] The **OmniWorld** is now live on 🤖 [ModelScope](https://modelscope.cn/datasets/InternRobotics/OmniWorld)!
 - [2025.10.15] 🔥 The **OmniWorld-Game Benchmark** is now live on Hugging Face!
 - [2025.10.8] The **OmniWorld-HOI4D** and **OmniWorld-DROID** dataset is now live on Hugging Face!
 - [2025.9.28] The **OmniWorld-CityWalk** dataset is now live on Hugging Face!
@@ -31,7 +31,7 @@
 | RH20T | ✅ Released | Full  | Robot | 109K | 10 | 640 × 360 | 53,453K | ❌ | ✅ | 🙂 | 🙂 | 🙂 |
 | RH20T-Human | ✅ Released | Full  | Human | 73K | 10 | 640 × 360 | 8,875K | ❌ | ✅ | 🙂 | ❌ | ❌ |
 | HOI4D | ✅ Released | Full  | Human | 2K | 15 | 1920 × 1080 | 891K | 🙂 | 🙂 | 🙂 | 🙂 | ✅ |
-| Epic-Kitchens | 🔜 Planned | -  | Human | 15K | 30 | 1280 × 720 | 3,635K | ❌ | 🙂 | 🙂 | ❌ | ❌ |
+| Epic-Kitchens | ✅ Released | Full  | Human | 15K | 30 | 1280 × 720 | 3,635K | ❌ | 🙂 | 🙂 | ❌ | 🙂 |
 | Ego-Exo4D | ✅ Released | Full  | Human | 4K | 30 | 1024 × 1024 | 9,190K | ❌ | ✅ | 🙂 | 🙂 | ❌ |
 | HoloAssist | 🔜 Planned | -  | Human | 1K | 30 | 896 × 504 | 13,037K | ❌ | 🙂 | 🙂 | 🙂 | ❌ |
 | Assembly101 | 🔜 Planned | -  | Human | 4K | 60 | 1920 × 1080 | 110,831K | ❌ | ✅ | 🙂 | 🙂 | 🙂 |
